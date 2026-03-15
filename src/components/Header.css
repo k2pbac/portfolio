@@ -1,0 +1,41 @@
+header {
+    position: relative;
+    text-align: start;
+
+    h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+    }
+
+    p {
+    font-size: 18px;
+    line-height: 28px;
+    }
+
+    .underline {
+    border-bottom: 3px solid #4EE1A0; /* Example color for the underline */
+    text-decoration: none;
+    }
+
+    a:link, a:visited {
+    color: white; /* Example color for the link */
+    padding-bottom: 4px; /* Space between text and underline */
+    }
+
+    
+    .space-grotesk-bold {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    }
+
+    img {
+    position: absolute;
+    top: -64px;
+    left: -260px;
+    width: 530px;
+    height: 129px;
+    }
+}
