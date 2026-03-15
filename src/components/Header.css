@@ -1,16 +1,24 @@
+.space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 header {
     position: relative;
     text-align: start;
 
     h1 {
     font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -1.5px;
+    line-height: 48px;
+    letter-spacing: 1.5px;
     }
 
     p {
     font-size: 18px;
     line-height: 28px;
+    width: 50%;
+    margin-bottom: 32px;
     }
 
     .underline {
@@ -21,15 +29,16 @@ header {
     a:link, a:visited {
     color: white; /* Example color for the link */
     padding-bottom: 4px; /* Space between text and underline */
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2.29px;
     }
 
     
     .space-grotesk-bold {
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
     font-weight: bold;
-    font-style: normal;
     }
+
 
     img {
     position: absolute;
