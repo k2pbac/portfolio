@@ -9,9 +9,9 @@ header {
     text-align: start;
 
     h1 {
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: 1.5px;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
     }
 
     p {
@@ -40,11 +40,20 @@ header {
     }
 
 
-    img {
+    img.rings {
     position: absolute;
     top: -64px;
     left: -260px;
     width: 530px;
     height: 129px;
+    }
+
+    img.profile-pic {
+    position: absolute;
+    top: -300px;
+    right: -237px;
+    width: 445px;
+    height: 720px;
+    z-index: -1;
     }
 }
