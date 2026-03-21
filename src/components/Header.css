@@ -1,23 +1,13 @@
-.space-grotesk {
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+.nunita-bold {
+    font-weight: bold;
 }
 
 header {
     position: relative;
     text-align: start;
-
-    h1 {
-    font-size: 88px;
-    line-height: 88px;
-    letter-spacing: -2.5px;
-    }
-
+    margin-bottom: 160px;
     p {
-    font-size: 18px;
-    line-height: 28px;
-    width: 50%;
+    width: 26%;
     margin-bottom: 32px;
     }
 
@@ -34,11 +24,6 @@ header {
     letter-spacing: 2.29px;
     }
 
-    
-    .space-grotesk-bold {
-    font-weight: bold;
-    }
-
 
     img.rings {
     position: absolute;
@@ -51,7 +36,7 @@ header {
     img.profile-pic {
     position: absolute;
     top: -300px;
-    right: 90px;
+    right: 0px;
     width: 445px;
     height: 720px;
     z-index: -1;
