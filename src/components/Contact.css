@@ -1,0 +1,26 @@
+.contact{
+    stroke: #979797;
+    background-color: #242424;
+    padding: 0 165px;
+    width: calc(100% - 50px);
+    text-align: start;
+    padding-top: 85px;
+    position: absolute;
+    bottom: 0;
+    left: -139px;
+    padding-bottom:89px;
+}
+
+.contact-description {
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    margin-bottom: 96px;
+    h2 {
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    p {
+        text-align: start;
+    }
+}

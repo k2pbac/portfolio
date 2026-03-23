@@ -1,4 +1,5 @@
 .projects {
+    padding-bottom: 580px;
     .projects-header {
         display: flex;
         justify-content: space-between;
