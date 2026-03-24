@@ -1,29 +1,27 @@
-import './ItemList.css';
-import Item from '../Item';
+import "./ItemList.css";
+import Item from "../Item";
 
 export default function ItemList() {
-    return (
-        <div className="item-list">
-            <ul>
-                <li >
-                    <Item title="HTML" experience="4 Years Experience" />
-                </li>
-                <li>
-                    <Item title="CSS" experience="3 Years Experience" />
-                </li>
-                <li>
-                    <Item title="JavaScript" experience="2 Years Experience" />
-                </li>
-                <li>
-                    <Item title="Accessibility" experience="2 Years Experience" />
-                </li>
-                <li>
-                    <Item title="React" experience="3Years Experience" />
-                </li>
-                <li>
-                    <Item title="Sass" experience="2 Years Experience" />
-                </li>
-            </ul>
-        </div>
-    );
+  const items = [
+    { title: "Ruby", experience: "1 Years Experience" },
+    { title: "JavaScript", experience: "5 Years Experience" },
+    { title: "HTML", experience: "5 Years Experience" },
+    { title: "CSS", experience: "5 Years Experience" },
+    { title: "Sass", experience: "2 Years Experience" },
+    { title: "Figma", experience: "1 Years Experience" },
+    { title: "Java", experience: "1 Years Experience" },
+    { title: "Docker", experience: "1 Years Experience" },
+    { title: "PostgreSQL", experience: "1 Years Experience" },
+    { title: "C", experience: "1 Years Experience" },
+  ];
+
+  return (
+    <div className="item-list">
+      <ul>
+        {items.map((item, index) => (
+          <Item key={index} title={item.title} experience={item.experience} />
+        ))}
+      </ul>
+    </div>
+  );
 }

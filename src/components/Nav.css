@@ -21,3 +21,7 @@ nav {
     line-height: 32px;
     letter-spacing: -0.44px;
 }
+
+.contact nav {
+    padding-bottom: 30px !important;
+}

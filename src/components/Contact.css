@@ -1,0 +1,87 @@
+.contact{
+    stroke: #979797;
+    background-color: #242424;
+    padding: 0 165px;
+    width: calc(100% - 50px);
+    text-align: start;
+    padding-top: 85px;
+    position: absolute;
+    bottom: 0;
+    left: -139px;
+   
+    hr {
+        max-width: 80%;
+        margin-top: 100px;
+    }
+    .contact-container {
+        display: flex; 
+        justify-content: center;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        input, textarea {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #979797;
+            padding: 12px;
+            color: white;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.22px;
+            resize: none; /* Disable resizing */
+            scrollbar-width: none; /* For Firefox */
+            -ms-overflow-style: none; /* For Internet Explorer and Edge */
+            width: 445px;
+            max-width: 100%;
+
+        }
+        textarea {
+            height: 107px;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #4EE1A0;
+        }
+        button {
+            background-color: #4EE1A0;
+            color: black;
+            border: none;
+            padding: 12px 24px;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 2.29px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+         a:link, a:visited {
+            color: white; /* Example color for the link */
+            padding-bottom: 4px; /* Space between text and underline */
+            margin-left: auto;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 2.29px;
+        }
+        a:hover {
+            color: #4EE1A0;
+        }
+    }
+}
+
+.contact-description {
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+    margin-bottom: 96px;
+    margin-right: 220px;
+    h2 {
+        margin: 0;
+        margin-bottom: 32px;
+    }
+    p {
+        text-align: start;
+    }
+}

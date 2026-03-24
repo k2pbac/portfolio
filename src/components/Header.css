@@ -2,6 +2,14 @@
     font-weight: bold;
 }
 
+.underline {
+    border-bottom: 3px solid #4EE1A0; /* Example color for the underline */
+    text-decoration: none;
+    }
+
+    
+
+
 header {
     position: relative;
     text-align: start;
@@ -11,11 +19,6 @@ header {
     margin-bottom: 32px;
     }
 
-    .underline {
-    border-bottom: 3px solid #4EE1A0; /* Example color for the underline */
-    text-decoration: none;
-    }
-
     a:link, a:visited {
     color: white; /* Example color for the link */
     padding-bottom: 4px; /* Space between text and underline */
@@ -23,7 +26,6 @@ header {
     line-height: 22px;
     letter-spacing: 2.29px;
     }
-
 
     img.rings {
     position: absolute;
