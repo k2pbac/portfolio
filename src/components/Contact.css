@@ -51,6 +51,17 @@
             border-radius: 4px;
             cursor: pointer;
         }
+         a:link, a:visited {
+            color: white; /* Example color for the link */
+            padding-bottom: 4px; /* Space between text and underline */
+            margin-left: auto;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 2.29px;
+        }
+        a:hover {
+            color: #4EE1A0;
+        }
     }
 }
 

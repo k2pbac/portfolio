@@ -18,7 +18,7 @@ export default function Contact() {
           id="name"
         />
         <input
-          type="email"  
+          type="email"
           placeholder="EMAIL"
           className="contact-input nunita-regular"
           id="email"
@@ -28,15 +28,15 @@ export default function Contact() {
           className="contact-textarea nunita-regular"
           id="message"
         ></textarea>
+        <a
+          href="mailto:kris.bachan@gmail.com"
+          className="underline nunita-bold underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SEND MESSAGE
+        </a>
       </div>
-      {/* <a
-        href="mailto:kris.bachan@gmail.com"
-        className="underline nunita-bold"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        SEND ME AN EMAIL
-      </a> */}
     </div>
   );
 }
