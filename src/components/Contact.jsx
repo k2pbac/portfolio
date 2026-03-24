@@ -10,14 +10,33 @@ export default function Contact() {
           fill in the form, and I’ll get back to you as soon as possible.
         </p>
       </div>
-      <a
+      <div className="contact-form">
+        <input
+          type="text"
+          placeholder="NAME"
+          className="contact-input nunita-regular"
+          id="name"
+        />
+        <input
+          type="email"  
+          placeholder="EMAIL"
+          className="contact-input nunita-regular"
+          id="email"
+        />
+        <textarea
+          placeholder="MESSAGE"
+          className="contact-textarea nunita-regular"
+          id="message"
+        ></textarea>
+      </div>
+      {/* <a
         href="mailto:kris.bachan@gmail.com"
         className="underline nunita-bold"
         target="_blank"
         rel="noopener noreferrer"
       >
         SEND ME AN EMAIL
-      </a>
+      </a> */}
     </div>
   );
 }
