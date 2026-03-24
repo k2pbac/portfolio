@@ -8,9 +8,15 @@
     position: absolute;
     bottom: 0;
     left: -139px;
-    padding-bottom:89px;
-    display: flex; 
-    justify-content: center;
+   
+    hr {
+        max-width: 80%;
+        margin-top: 100px;
+    }
+    .contact-container {
+        display: flex; 
+        justify-content: center;
+    }
 
     .contact-form {
         display: flex;
