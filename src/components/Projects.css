@@ -28,8 +28,10 @@
         gap: 20px; 
         .project-item img {
             max-width: 100%;
-            object-fit: contain;
-            border-radius: 8px;
+            width: 450px;
+            height: 300px;
+            object-fit: cover;
+            object-position: center;
         }
         .project-item .icon {
             width: 24px;
