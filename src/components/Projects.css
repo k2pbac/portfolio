@@ -26,6 +26,13 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
         gap: 20px; 
+
+        @media (min-width: 2400px) {
+            grid-template-columns: repeat(5, 1fr);
+        }
+        @media only screen and (min-width:  1900px) and (max-width: 2399px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
         .project-item img {
             max-width: 100%;
             width: 450px;
@@ -33,12 +40,50 @@
             object-fit: cover;
             object-position: center;
         }
+        .project-item {
+            position: relative;
+        }
+        .view-project-overlay {
+            position: absolute;
+            width: 450px;
+            height: 300px;
+        }
+        .button-text, .button-text-code {
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 2.29px;
+            font-weight: bold;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .button-text-code {
+            top: 40%;
+        }
+        
+
+        .button-text:hover, .button-text-code:hover {
+            color: #4EE1A0;
+        }
+
+        .image-container {
+            opacity: 1;
+            transition: opacity 0.2s ease;
+        }
+
+        .image-container:hover {
+            opacity: 0.2;
+        }
         .project-item .icon {
             width: 24px;
             height: 24px;
         }
         a {
-            width: fit-content;
+            display: block;
+            height: 300px;
+            max-width: 450px;
         }
         p {
             margin: 20px 0;
